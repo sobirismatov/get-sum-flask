@@ -6,9 +6,8 @@ Write a function that reutrns the sum of two numbers. The function should be abl
 
 ### request
 
-endpoint: `api/get-sum`
-
-method: `GET`
+- method: `GET`
+- endpoint: `api/get-sum`
 
 query parameters:
 
