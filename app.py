@@ -20,8 +20,13 @@ def get_sum():
                 "sum": 3
             }
     """
-    pass
+    args=request.args
+    print(args)
+    sum1=0
+    for i in args.values():
+        sum1+=int(i)
+    return {"sum":sum1}
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
